@@ -18,7 +18,7 @@ const client = new P2PClient({
 })
 
 // Establish API Client and embedding fetch for nodejs below v18
-const fetchProvider = new FetchProvider('https://jungle4.api.eosnation.io', {fetch})
+const fetchProvider = new FetchProvider('https://jungle4.greymass.com', {fetch})
 const apiClient = new APIClient({provider: fetchProvider})
 
 async function run() {
