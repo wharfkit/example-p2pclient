@@ -1,0 +1,13 @@
+{
+    "name": "@wharfkit/example-p2pclient",
+    "version": "1.0.0",
+    "description": "An example using the P2PClient from the @wharfkit/antelope library in a nodejs application",
+    "main": "index.js",
+    "repository": "https://github.com/wharfkit/example-p2pclient",
+    "author": "Aaron Cox <aaron@greymass.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@wharfkit/antelope": "^0.7.3",
+        "node-fetch": "2.6.1"
+    }
+}
